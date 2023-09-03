@@ -59,7 +59,59 @@ For a 52 card deck:
 	Run of 6 (Aces low): 0.82%
 	Run of 7 (Aces low): 0.08%
 
-	Four Pair (8 card hand): 6.31%
+	10 card hand:
+	Run of 3 (Aces low): 84.13%
+	Run of 4 (Aces low): 49.59%
+	Run of 5 (Aces low): 23.24%
+	Run of 6 (Aces low): 9.52%
+	Run of 7 (Aces low): 3.40%
+	Run of 8 (Aces low): 1.01%
+	Run of 9 (Aces low): 0.22%
+	Run of 10 (Aces low): 0.03%
+	Pair: 98.11%
+	Two Pair: 70.77%
+	Three Pair: 27.63%
+	Four Pair: 3.64%
+	Three of a kind: 24.08%
+	Two sets of three: 1.12%
+	Three sets of three: 0.01%
+	Four of a kind: 1.01%
+
+	15 card hand:
+	Run of 3 (Aces low): 98.96%
+	Run of 4 (Aces low): 89.12%
+	Run of 5 (Aces low): 69.06%
+	Run of 6 (Aces low): 47.58%
+	Run of 7 (Aces low): 30.15%
+	Run of 8 (Aces low): 18.06%
+	Run of 9 (Aces low): 10.21%
+	Run of 10 (Aces low): 5.35%
+	Pair: 100.00%
+	Two Pair: 87.44%
+	Three Pair: 69.44%
+	Four Pair: 47.65%
+	Three of a kind: 66.76%
+	Two sets of three: 17.77%
+	Three sets of three: 1.56%
+	Four of a kind: 6.53%
+
+	20 card hand:
+	Run of 3 (Aces low): 99.96%
+	Run of 4 (Aces low): 98.75%
+	Run of 5 (Aces low): 92.84%
+	Run of 6 (Aces low): 81.57%
+	Run of 7 (Aces low): 66.33%
+	Run of 8 (Aces low): 51.44%
+	Run of 9 (Aces low): 38.95%
+	Run of 10 (Aces low): 28.78%
+	Pair: 100.00%
+	Two Pair: 87.47%
+	Three Pair: 69.73%
+	Four Pair: 50.82%
+	Three of a kind: 95.70%
+	Two sets of three: 63.62%
+	Three sets of three: 23.71%
+	Four of a kind: 21.96%
 
 For a 40 card with two red kings and no black kings:
 

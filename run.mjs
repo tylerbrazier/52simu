@@ -49,9 +49,9 @@ function nextRankInSequence(card, acesLow, acesHigh) {
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-	for (var h = 5; h <= 7; h++) {
+	for (var h = 10; h <= 20; h+=5) {
 		console.log(h, 'card hand:')
-		for (var r = 2; r <= 7; r++) {
+		for (var r = 3; r <= 10; r++) {
 			if (r > h) continue;
 
 			process.stdout.write('Run of '+r+' (Aces low): ')

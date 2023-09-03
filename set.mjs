@@ -21,25 +21,40 @@ function containsSets(hand, s, n=1) {
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-	for (var h=5; h<=7; h++) {
+	for (var h=10; h<=20; h+=5) {
 		console.log(h, 'card hand:')
 
 		process.stdout.write('Pair: ')
 		simulate(hand => containsSets(hand, 2), h)
 
+		process.stdout.write('Two Pair: ')
+		simulate(hand => containsSets(hand, 2, 2), h)
+
+		if (h >= 6) {
+			process.stdout.write('Three Pair: ')
+			simulate(hand => containsSets(hand, 2, 3), h)
+		}
+
+		if (h >= 8) {
+			process.stdout.write('Four Pair: ')
+			simulate(hand => containsSets(hand, 2, 4), h)
+		}
+
 		process.stdout.write('Three of a kind: ')
 		simulate(hand => containsSets(hand, 3), h)
+
+		if (h >= 6) {
+			process.stdout.write('Two sets of three: ')
+			simulate(hand => containsSets(hand, 3, 2), h)
+		}
+		if (h >= 9) {
+			process.stdout.write('Three sets of three: ')
+			simulate(hand => containsSets(hand, 3, 3), h)
+		}
 
 		process.stdout.write('Four of a kind: ')
 		simulate(hand => containsSets(hand, 4), h)
 
-		process.stdout.write('Two Pair: ')
-		simulate(hand => containsSets(hand, 2, 2), h)
-
 		console.log()
 	}
-	process.stdout.write('Three Pair (6 card hand): ')
-	simulate(hand => containsSets(hand, 2, 3), 6)
-	process.stdout.write('Four Pair (8 card hand): ')
-	simulate(hand => containsSets(hand, 2, 3), 8)
 }
