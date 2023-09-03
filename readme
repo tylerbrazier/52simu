@@ -113,37 +113,6 @@ For a 52 card deck:
 	Three sets of three: 23.71%
 	Four of a kind: 21.96%
 
-For a 40 card with two red kings and no black kings:
-
-	Pair: 491769/1000000 = 0.491769
-	Three of a kind: 22838/1000000 = 0.022838
-	Four of a kind: 254/1000000 = 0.000254
-	Two Pair: 48381/1000000 = 0.048381
-	Three Pair (6 card hand): 3018/1000000 = 0.003018
-	Four Pair (8 card hand): 62786/1000000 = 0.062786
-
-	3 of same suit: 371542/1000000 = 0.371542
-	4 of same suit: 44680/1000000 = 0.04468
-	5 of same suit: 1979/1000000 = 0.001979
-	6 of same suit (6 card hand): 345/1000000 = 0.000345
-
-	Run size 3:
-	Aces low only: 231252/1000000 = 0.231252
-	Aces high only: 224667/1000000 = 0.224667
-	Aces high and low: 256591/1000000 = 0.256591
-	Run size 4:
-	Aces low only: 40974/1000000 = 0.040974
-	Aces high only: 39068/1000000 = 0.039068
-	Aces high and low: 48536/1000000 = 0.048536
-	Run size 5:
-	Aces low only: 3873/1000000 = 0.003873
-	Aces high only: 3847/1000000 = 0.003847
-	Aces high and low: 5117/1000000 = 0.005117
-	Run size 6 (6 card hand):
-	Aces low only: 1823/1000000 = 0.001823
-	Aces high only: 1741/1000000 = 0.001741
-	Aces high and low: 2613/1000000 = 0.002613
-
 To run unit tests: node --test
 
 The math behind finding acutal probabilities:
