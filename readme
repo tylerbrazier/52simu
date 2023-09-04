@@ -17,6 +17,10 @@ For a 52 card deck:
 	Run of 3 (Aces low): 22.12%
 	Run of 4 (Aces low): 3.71%
 	Run of 5 (Aces low): 0.36%
+	Run of 2 same suit: 32.35%
+	Run of 2 same color: 54.56%
+	Run of 3 same suit: 1.93%
+	Run of 3 same color: 6.92%
 	Marriage (K&Q): 0.100 (10% chance)
 	Marriage or Bezique (K&Q | J&Q): 0.176566 (17% chance)
 	Any two different faces: 0.253054 (25% chance)
@@ -68,6 +72,12 @@ For a 52 card deck:
 	Run of 8 (Aces low): 1.01%
 	Run of 9 (Aces low): 0.22%
 	Run of 10 (Aces low): 0.03%
+	Run of 3 same suit: 20.04%
+	Run of 3 same color: 51.02%
+	Run of 4 same suit: 2.73%
+	Run of 4 same color: 14.68%
+	Run of 5 same suit: 0.31%
+	Run of 5 same color: 3.42%
 	Pair: 98.11%
 	Two Pair: 70.77%
 	Three Pair: 27.63%
@@ -86,6 +96,12 @@ For a 52 card deck:
 	Run of 8 (Aces low): 18.06%
 	Run of 9 (Aces low): 10.21%
 	Run of 10 (Aces low): 5.35%
+	Run of 3 same suit: 57.30%
+	Run of 3 same color: 90.58%
+	Run of 4 same suit: 15.60%
+	Run of 4 same color: 53.78%
+	Run of 5 same suit: 3.34%
+	Run of 5 same color: 23.60%
 	Pair: 100.00%
 	Two Pair: 87.44%
 	Three Pair: 69.44%
@@ -104,6 +120,12 @@ For a 52 card deck:
 	Run of 8 (Aces low): 51.44%
 	Run of 9 (Aces low): 38.95%
 	Run of 10 (Aces low): 28.78%
+	Run of 3 same suit: 89.12%
+	Run of 3 same color: 99.47%
+	Run of 4 same suit: 43.90%
+	Run of 4 same color: 88.13%
+	Run of 5 same suit: 14.98%
+	Run of 5 same color: 61.18%
 	Pair: 100.00%
 	Two Pair: 87.47%
 	Three Pair: 69.73%
