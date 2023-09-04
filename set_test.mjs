@@ -83,6 +83,27 @@ test('containsSets', async t => {
 		assert.deepStrictEqual(containsSets(hand, 3), expected)
 	})
 
+	await t.test('finds two sets of three', t => {
+		var hand = [
+			{ rank:8, suit:'d' },
+			{ rank:'A', suit:'s' },
+			{ rank:'K', suit:'h' },
+			{ rank:'K', suit:'d' },
+			{ rank:8, suit:'s' },
+			{ rank:'K', suit:'c' },
+			{ rank:8, suit:'c' },
+		]
+		var expected = [
+			{ rank:'K', suit:'h' },
+			{ rank:'K', suit:'d' },
+			{ rank:'K', suit:'c' },
+			{ rank:8, suit:'d' },
+			{ rank:8, suit:'s' },
+			{ rank:8, suit:'c' },
+		]
+		assert.deepStrictEqual(containsSets(hand, 3, 2), expected)
+	})
+
 	await t.test('contains 2 pair', t => {
 		var hand = [
 			{ rank:10, suit:'s' },
