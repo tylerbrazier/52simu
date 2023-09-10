@@ -126,6 +126,8 @@ For a 52 card deck:
 	Run of 4 same color: 88.13%
 	Run of 5 same suit: 14.98%
 	Run of 5 same color: 61.18%
+	Run of 6 same suit: 4.45%
+	Run of 6 same color: 35.26%
 	Pair: 100.00%
 	Two Pair: 87.47%
 	Three Pair: 69.73%
