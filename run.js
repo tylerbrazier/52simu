@@ -1,5 +1,5 @@
 export { containsRun, suitCriteria }
-import { simulate } from './base.mjs'
+import { simulate } from './base.js'
 import { fileURLToPath } from 'node:url'
 
 // Returns the first run of size n found, false otherwise.

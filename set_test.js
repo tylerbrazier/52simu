@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert'
-import containsSets from './set.mjs'
+import containsSets from './set.js'
 
 test('containsSets', async t => {
 	await t.test('non-adjacent pair', t => {

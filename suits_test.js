@@ -1,4 +1,4 @@
-import { nSameSuit, nDifferentSuits } from './suits.mjs'
+import { nSameSuit, nDifferentSuits } from './suits.js'
 import test from 'node:test'
 import assert from 'node:assert'
 

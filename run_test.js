@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert'
-import { containsRun, suitCriteria } from './run.mjs'
+import { containsRun, suitCriteria } from './run.js'
 
 test('containsRun', async t => {
 	await t.test('no aces run of 3', t => {

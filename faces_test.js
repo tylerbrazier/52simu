@@ -4,7 +4,7 @@ import {
 	containsMarriage,
 	containsMarriageOrBezique,
 	containsAnyTwoDifferent
-} from './faces.mjs'
+} from './faces.js'
 
 test('containsMarriage', async t => {
 	await t.test('does contain marriage', t => {

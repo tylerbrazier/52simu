@@ -1,5 +1,5 @@
 export default containsSets
-import { simulate } from './base.mjs'
+import { simulate } from './base.js'
 import { fileURLToPath } from 'node:url'
 
 // returns the first n sets of size s

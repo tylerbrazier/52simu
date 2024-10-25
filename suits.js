@@ -1,5 +1,5 @@
 export { nSameSuit, nDifferentSuits }
-import { simulate } from './base.mjs'
+import { simulate } from './base.js'
 import { fileURLToPath } from 'node:url'
 
 // returns the first n cards with the same suit, or false

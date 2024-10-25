@@ -1,5 +1,5 @@
 export { containsMarriage, containsMarriageOrBezique, containsAnyTwoDifferent }
-import { simulate } from './base.mjs'
+import { simulate } from './base.js'
 import { fileURLToPath } from 'node:url'
 
 function containsMarriage(hand) {
